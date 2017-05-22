@@ -10,6 +10,17 @@
       paths:
         - '{{role_path}}/vars'
 
+- name: make target directories...
+  become: yes
+  become_user: root
+  with_items:
+    - '{{nexus_repo_configure_data_dir}}/etc'
+    - '{{nexus_repo_configure_install_dir}}/bin'
+  file:
+    path: '{{item}}'
+    state: directory
+    mode: 0755
+        
 - name: templatize...
   become: yes
   become_user: root
