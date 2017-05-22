@@ -1,4 +1,4 @@
 ---
 # vars file for nexus-repo-configure
 nexus_repo_configure_etc_karaf_dir: '{{nexus_repo_configure_install_dir}}/etc/karaf'
-nexus_repo_configurate_log_dir: '{{nexus_repo_configure_data_dir}}/log'
+nexus_repo_configure_log_dir: '{{nexus_repo_configure_data_dir}}/log'
