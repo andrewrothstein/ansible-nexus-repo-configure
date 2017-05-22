@@ -1,8 +1,8 @@
-andrewrothstein.rolename
+andrewrothstein.nexus-repo-configure
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-rolename.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-rolename)
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-nexus-repo-configure.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-nexus-repo-configure)
 
-Configures Nexus. Assumes Nexus is already installed. See andrewrothstein.nexus-repo.
+Configures [Nexus](http://www.sonatype.org/nexus/). Assumes Nexus is already installed. Consider [andrewrothstein.nexus-repo](https://galaxy.ansible.com/andrewrothstein/nexus-repo/).
 
 Requirements
 ------------
@@ -25,7 +25,7 @@ Example Playbook
 ```yml
 - hosts: servers
   roles:
-    - andrewrothstein.rolename
+    - andrewrothstein.nexus-repo-configure
 ```
 
 License
