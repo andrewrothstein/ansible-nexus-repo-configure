@@ -1,0 +1,13 @@
+---
+# defaults file for nexus-repo-configure
+nexus_repo_configure_install_dir: /usr/local/nexus
+nexus_repo_configure_data_dir: /usr/local/sonatype-work/nexus3
+
+nexus_repo_configure_vmopts:
+  xms: '1200M'
+  xmx: '1200M'
+
+nexus_repo_configure_application_port: 8081
+nexus_repo_configure_application_host: '127.0.0.1'
+nexus_repo_configure_context_path: /
+

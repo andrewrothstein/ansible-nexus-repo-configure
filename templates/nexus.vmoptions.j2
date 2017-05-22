@@ -1,0 +1,15 @@
+-Xms{{nexus_repo_configure_vmopts.xms}}
+-Xmx{{nexus_repo_configure_vmopts.xmx}}
+-XX:MaxDirectMemorySize=2G
+-XX:+UnlockDiagnosticVMOptions
+-XX:+UnsyncloadClass
+-XX:+LogVMOutput 
+-XX:LogFile={{nexus_repo_configure_log_dir}}/jvm.log
+-Djava.net.preferIPv4Stack=true
+-Dkaraf.home={{nexus_repo_configure_install_dir}}
+-Dkaraf.base={{nexus_repo_configure_install_dir}}
+-Dkaraf.etc={{nexus_repo_configure_etc_karaf_dir}}
+-Djava.util.logging.config.file={{nexus_repo_configure_etc_karaf_dir}}/java.util.logging.properties
+-Dkaraf.data={{nexus_repo_configure_data_dir}}
+-Djava.io.tmpdir={{nexus_repo_configure_data_dir}}/tmp
+-Dkaraf.startLocalConsole=false

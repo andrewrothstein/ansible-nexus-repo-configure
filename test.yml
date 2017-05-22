@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+    - role: andrewrothstein.nexus-repo
+    - role: '{{playbook_dir}}'
+      

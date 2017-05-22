@@ -1,0 +1,23 @@
+---
+galaxy_info:
+  author: Andrew Rothstein
+  description: configures nexus repository
+  company: BlackRock
+n  license:
+    - MIT
+  min_ansible_version: 2.0
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+   galaxy_tags:
+    - development
+
+dependencies: []
+  
